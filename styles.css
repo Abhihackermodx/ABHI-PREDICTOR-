@@ -1,0 +1,71 @@
+body {
+    background-color: #282c34;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.neon-title {
+    color: #FFFFFF; /* White */
+    text-shadow: 
+        0 0 5px #00FFFF, 
+        0 0 10px #00FFFF,
+        0 0 15px #0000FF, 
+        0 0 20px #0000FF;
+}
+
+.owner-name {
+    color: #FFD700; /* Light Golden */
+    text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700;
+    margin: 10px 0;
+}
+
+.neon-input {
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #00FFFF; /* Blue border */
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF; /* White text */
+    outline: none;
+    text-align: center;
+    text-shadow: 0 0 5px #00FFFF; /* Blue glow effect */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.neon-input:focus {
+    border-color: #0000FF; /* Darker blue on focus */
+    box-shadow: 0 0 10px #00FFFF, 0 0 20px #0000FF; /* Blue glow */
+}
+
+.predict-button {
+    background-color: gold; /* Golden background */
+    border: none;
+    color: #000000; /* Black text */
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #FFD700; /* Gold glow effect */
+}
+
+.predict-button:hover {
+    background-color: #FFD700; /* Lighter gold on hover */
+}
+
+.neon-result {
+    color: #FFD700; /* Light Golden */
+    text-transform: uppercase; /* Capital letters */
+    text-shadow: 
+        0 0 10px #FFD700, 
+        0 0 20px #FFD700,
+        0 0 30px #FFD700;
+}
